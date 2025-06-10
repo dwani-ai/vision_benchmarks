@@ -1,0 +1,13 @@
+services:
+  dwani-vllm:
+    image: slabstech/dwani-vllm
+    runtime: nvidia
+    ports:
+      - "7881:8000"
+    volumes:
+      - ~/.cache/huggingface:/root/.cache/huggingface
+    environment:
+      # Uncomment and replace with your actual token if needed
+      - HF_TOKEN={HF_TOKEN}
+    tty: true
+    stdin_open: true
