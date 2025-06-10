@@ -14,6 +14,7 @@ export VLLM_CONFIGURE_LOGGING=0
 
   vllm serve google/gemma-3-1b-it --served-model-name gemma3  --disable-log-requests --uvicorn-log-level=warning
 
+  vllm serve google/gemma-3-4b-it --served-model-name gemma3  --disable-log-requests --uvicorn-log-level=warning
 
 
   vllm serve google/gemma-3-12b-it --served-model-name gemma3  --disable-log-requests --uvicorn-log-level=warning
