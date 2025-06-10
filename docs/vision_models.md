@@ -1,11 +1,11 @@
 models
 
 
-- Qwen/Qwen3-0.6B  
-    - Tokens per second: 206.24, GPU Utilization (%): 40
-    - Tokens per second: 206.89, GPU Utilization (%): 41
-- google/gemma-3-1b-it  - 
-    - Tokens per second: 42.78 ,GPU Utilization (%): 53
-    - Tokens per second: 44.00 ,GPU Utilization (%): 
-  
+# Model Performance Comparison
 
+| Model                  | Tokens per Second | GPU Utilization (%) |
+|------------------------|-------------------|---------------------|
+| Qwen/Qwen3-0.6B        | 206.24            | 40                  |
+| Qwen/Qwen3-0.6B        | 206.89            | 41                  |
+| google/gemma-3-1b-it   | 42.78             | 53                  |
+| google/gemma-3-1b-it   | 44.00             | -                   |
