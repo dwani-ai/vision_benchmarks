@@ -3,7 +3,7 @@
 - For [setup](docs/setup.md) 
 - For vision model [data](docs/vision_models.md)
 
-- docker compose up
+- docker compose -f compose.yml -p dwani-vllm up -d
 
 <!--
 docker exec -it <container-name-or-id> /bin/bash
